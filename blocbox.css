@@ -16,6 +16,7 @@ body{
   font-size: 16px;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
+  color: #004C47;
 }
 
 
@@ -31,14 +32,25 @@ a {
 
 
 #home {
+  width: 16.73%;
+  height: 3%;
   border: none;
   background-color: #99CCC9;
+  float: left;
+  margin-top: 1%;
+  padding-left: 2.6%;
+}
+
+#logo {
+  width: 40%;
+  height: 4.136%;
+  margin: 8% auto;
 }
 
 #blocbox-logo {
   width: 32%;
   height: 10.8986%;
-  margin: 0 auto;
+  margin: 10.8% auto 2.168% auto;
 }
 
 #blocbox-desktop {
@@ -48,42 +60,412 @@ a {
 #desktop-caption {
   margin-left: auto;
   margin-right: auto;
-  margin-top: -5.25em;
+  margin-top: -12.53%;
   width: 63.84%;
-  font-size: 0.5em;
+  font-size: 2.13vw;
   font-style: italic;
   font-weight: 300;
   letter-spacing: 0.063em;
+  margin-bottom: 10.128%;
 }
 
-#hero ul li {
+#hero ul {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  font-size: 3.2vw;
   list-style-type: none;
-  font-size: 0.750em;
+  font-weight: 400;
+  margin-bottom: 16%;
+  line-height: 1.6em;
+  letter-spacing: 0.119em;
 }
+
+
 
 #list-label {
-  font-size: 0.625em;
+  font-size: 2.6vw;
+  margin-bottom: 5%;
 }
 
 #case-study-content {
-  width: 65.06%;
+  width: 64%;
   margin-left: auto;
   margin-right: auto;
 }
 
-#view-prototype {
-  width: 53.3%;
-  height: 8%;
+#case-study-content h4 {
+  text-align: left;
+  width: 100%;
+  height: 7.083%;
+  letter-spacing: 0.213em;
+  font-weight: 400;
+  font-size: 3vw;
+  margin-bottom: 2.5vw;
+}
+
+
+#case-study-content p{
+  text-align: left;
+  font-size: 2.6vw;
+  color: #004C47;
+  margin-bottom: 5%;
+  line-height: 3.73vw;
+  letter-spacing: 0.063em;
+  font-weight: 300;
+}
+
+.view-prototype {
+  margin: 8% auto 16% auto;
+  width: 74%;
   background-color: #004C47;
   color: #9BECE7;
   margin-left: auto;
   margin-right: auto;
 }
 
-#view-prototype a {
+.view-prototype a {
+  display: inline-block;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
   font-size: 0.750em;
   text-decoration: none;
-  font-weight: 300;
-  letter-spacing: 0.113em;
-  
+  font-weight: lighter;
+  letter-spacing: .5vw;
+}
+
+#view-prototype-top {
+  margin-bottom: 22%;
+  margin-top: 12.08%;
+}
+
+#user-flows {
+  margin-top: 12%;
+  margin-bottom: 24%;
+}
+
+#style-guid {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -2%;
+  margin-bottom: 13%;
+}
+
+
+#reits {
+margin-top: -4%;
+}
+
+#summary {
+  margin-top: 16%;
+
+}
+
+#signup {
+  margin-top: 9%;
+}
+
+#sign-up-caption p {
+  text-align: center;
+  font-size: 2.1vw;
+  margin-top: 4%;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+#dashboard {
+  margin-top: 12%;
+  margin-bottom: 12%;
+}
+
+#account-info {
+  margin-bottom: 22%;
+}
+
+#view-prototype-bottom{
+  margin-bottom: -10%;
+}
+
+
+footer {
+  margin-top: 26%;
+  height: auto;
+  margin-bottom: 13.3%;
+}
+
+footer h3 {
+  font-size: 3.73vw;
+  font-weight: 400;
+  margin-bottom: 8%;
+}
+
+footer h4 {
+  font-size: 2.6vw;
+  font-weight: 400;
+}
+
+footer div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 26.6%;
+  padding: .288em 0 .188em 0;
+  border: 0.125em solid #004C47;
+  letter-spacing: .15em;
+}
+
+
+footer div:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  box-shadow:
+               1px 1px #004C47,
+               2px 2px #004C47,
+               3px 3px #004C47;
+       -webkit-transform: translateX(-3px);
+       transform: translateX(-3px);
+}
+
+footer ul {
+  margin-bottom: 8%;
+}
+
+footer li {
+  list-style-type: none;
+  margin-top: 5.3%;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 2.6vw;
+}
+
+#scroll {
+  border-bottom: .5px solid #004C47;
+  letter-spacing: .75vw;
+}
+
+footer h5 {
+  margin-top: 10.6%;
+  font-size: 2.6vw;
+  font-weight: 400;
+}
+
+
+@media(min-width: 640px) {
+
+  #logo {
+  margin-top: 4.6875%;
+  }
+
+  #home {
+    margin-top: 1%;
+  }
+
+  #blocbox-logo {
+    margin-bottom: 10.5%;
+  }
+
+  #case-study-content {
+    width: 62.5%;
+  }
+
+  #case-study-content h4 {
+    letter-spacing: 0.175em;
+  }
+
+  #case-study-content p {
+    letter-spacing: 0.1875%;
+  }
+
+  #list-label {
+    margin-top: 15%;
+    font-size: 2vw;
+  }
+
+  #hero ul {
+    width: 100%;
+    margin-top: -6%;
+    margin-bottom: 19.6%;
+    font-size: 2.5vw;
+    line-height: 1.5em;
+  }
+
+  #sign-up-caption {
+    margin-bottom: 16.375%;
+  }
+
+  .view-prototype {
+    width: 18.750em;
+    height: 2.25em;
+    margin-top: 21.25%;
+  }
+
+  .view-prototype a {
+    font-size: 1.125em;
+    margin-bottom: -7px;
+  }
+
+
+
+  #case-study-content h4 {
+    width: 100%;
+  }
+
+  #dashboard {
+    margin-bottom: 16.375%;
+  }
+
+  #desktop-caption {
+    font-size: 1.5vw;
+  }
+
+  #account-info {
+    margin-bottom: 25.375%;
+  }
+
+  footer li {
+    margin-bottom: -3.125%;
+  }
+
+  #scroll {
+    font-size: 1.875vw;
+    margin-bottom: -15%;
+    letter-spacing: .75vw;
+  }
+
+  footer h5 {
+    font-size: 1.875vw;
+    margin-top: 8%;
+    margin-bottom: -5%;
+  }
+
+}
+
+
+@media(min-width: 1440px) {
+
+  #logo {
+    width: 24.305%;
+    height: 2.5%;
+  }
+
+  #blocbox-logo {
+    width: 18.12%;
+    height: 6.2%;
+  }
+
+  #desktop {
+    width: 85.47%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+  }
+
+  #home {
+    width: 10.2%;
+    height: 1.5%;
+  }
+
+  #case-study-content {
+    width: 65.5%;
+    font-size: 1.24vw;
+}
+
+#desktop-caption {
+  font-size: 1vw;
+  margin-top: -14%;
+}
+
+#hero ul {
+  font-size: 1.6vw;
+  margin-top: -8.5%;
+  margin-bottom: 17%;
+}
+
+#list-label {
+  font-size: 1.2vw;
+}
+
+#case-study-content h4 {
+  letter-spacing: .45em;
+  font-size: 1.6vw;
+}
+
+
+#case-study-content p {
+  width: 100%;
+  line-height: 2.20vw;
+  font-size: 1.25vw;
+}
+
+.view-prototype {
+  width: 42.4%;
+  height: 3.125em;
+}
+
+.view-prototype a {
+  font-size: 1.5em;
+  padding-top: 0.45em;
+}
+
+#view-prototype-top {
+  margin-bottom: 25%;
+  margin-top: 16%;
+}
+
+#scroll {
+  letter-spacing: .75vw;
+}
+
+.line-separator1 {
+  width: 58.083vw;
+  border-bottom: 0.27vw solid #004C47;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -7.94%;
+  margin-bottom: 8.94%;
+ }
+
+ .line-separator2 {
+   width: 58.083vw;
+   border-bottom: 0.27vw solid #004C47;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: -8.94%;
+   margin-bottom: 15.94%;
+  }
+
+  .line-separator3 {
+    width: 58.083vw;
+    border-bottom: 0.27vw solid #004C47;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 9.375em;
+  }
+
+  .line-separator4 {
+    width: 58.083vw;
+    border-bottom: 0.27vw solid #004C47;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 9.375em;
+  }
+
+  .line-separator5 {
+    width: 58.083vw;
+    border-bottom: 0.27vw solid #004C47;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 8.5em;
+  }
+
+  .line-separator6 {
+    width: 58.083vw;
+    border-bottom: 0.27vw solid #004C47;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }

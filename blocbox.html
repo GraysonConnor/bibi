@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" href="blocbox.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900" rel="stylesheet">
     <title>Blocbox</title>
   </head>
   <body>
@@ -31,7 +31,7 @@
 
   <section id="hero">
     <div id="blocbox-desktop">
-    <object data="images/blocbox-desktop.svg" type="image/svg+xml"></object>
+    <object data="images/blocbox-desktop.svg" type="image/svg+xml" id="desktop"></object>
   </div>
 
   <p id="desktop-caption">Blocbox was designed as an exercise for Bloc’s UX/UI Design Course.</p>
@@ -59,8 +59,11 @@
   </section>
 
 
+  <div class="line-separator1"></div>
+
+
   <section id="case-study-content">
-    <h4>INTODUCTION</h4>
+    <h4>INTRODUCTION</h4>
 
     <p>Anyone that uses the internet regularly knows that storing online information can be messy.
        Keeping track of bookmarked pages, saved photos, notes, and messages can waste time and cause
@@ -70,12 +73,15 @@
        store links, photos, and notes all in one place. Not only can users easily store online information,
        but they can also share and collaborate with others as needed. </p>
 
-    <div id="view-prototype"><a href="#">VIEW PROTOTYPE</a></div>
+    <div class="view-prototype" id="view-prototype-top"><a href="#">VIEW PROTOTYPE</a></div>
+
+
+    <div class="line-separator2"></div>
 
     <h4>USER RESEARCH</h4>
 
     <p>User Surveys provide information about preferred devices, internet browsing patterns, and potential competitors.
-       Drawing characteristics from survet participants contributed to the development of user personas for potential
+       Drawing characteristics from survey participants contributed to the development of user personas for potential
        clients.</p>
 
     <p>This information helped me create features and wireframes that best served my target audience.</p>
@@ -89,6 +95,8 @@
             <object data="images/userflows.svg" type="image/svg+xml"></object>
         </div>
 
+        <div class="line-separator3"></div>
+
 
         <h4>STYLE GUIDE</h4>
 
@@ -99,6 +107,8 @@
             <object data="images/styleguid.svg" type="image/svg+xml"></object>
           </div>
 
+          <div class="line-separator4"></div>
+
           <h4>REITERATIONS</h4>
 
           <p>Because Usability Testing is essential throughout the design process, I didn’t hesitate to send out multiple tests including
@@ -108,7 +118,7 @@
              by changing the color scheme from teal and orange to green and orange, where green better reinforces a more organized, secure feeling.</p>
 
           <div id="reits">
-             <object data="images/reits.png" type="image/svg+xml"></object>
+             <object data="images/reits.svg" type="image/svg+xml"></object>
           </div>
 
           <p>Results from user testing told me that my first home page design was confusing; the carousel reviews weren’t the most intuitive choice,
@@ -116,16 +126,20 @@
 
           <p>The revised version of the home page included a simplified reviews section and added a third color to the pricing section.</p>
 
-          <h4>SUMMARY</h4>
+          <div class="line-separator5"></div>
+
+          <h4 id="summary">SUMMARY</h4>
 
           <p>The design process, especially implementing user research, showed me how less is more. Simplicity allows for the clearest communication,
              the most beautiful design, and the highest level of functionality.</p>
 
           <div id="signup">
-            <object data="images/signup.svg" type="image/svg+xml"></object>
+            <object data="images/signup.svg" type="image/svg+xml" id="style-guide-object"></object>
           </div>
 
-          <p id="sign-up-caption">Onboarding</p>
+          <div id="sign-up-caption">
+          <p>Onboarding</p>
+          </div>
 
           <div id="dashboard">
           <object data="images/dashboard.svg" type="image/svg+xml"></object>
@@ -136,7 +150,9 @@
             <object data="images/accountinfo.svg" type="image/svg+xml"></object>
           </div>
 
-          <div id="view-prototype"><a href="#">VIEW PROTOTYPE</a></div>
+          <div class="line-separator6"></div>
+
+          <div class="view-prototype" id="view-prototype-bottom"><a href="#">VIEW PROTOTYPE</a></div>
 
   </section>
 
@@ -145,7 +161,7 @@
      <h4>bibiaconn@gmail.com</h4>
       <ul>
        <li><a href="https://www.linkedin.com/in/bibi-connor/"><div class="footer-contact">LinkedIn</div></a></li>
-       <li><a href="#"><div class="footer-contact">Resume</div></a></li>
+       <li><a href="#"><div class="footer-contact">View Resume</div></a></li>
       </ul>
      <a id="scroll" href="#top">SCROLL TO TOP</a>
 
