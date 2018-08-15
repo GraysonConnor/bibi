@@ -155,37 +155,29 @@ a {
 
 #reits {
 margin-top: -4%;
+margin-bottom: -3%;
 }
 
 #summary {
-  margin-top: 16%;
-
+  margin-top: 22%;
 }
 
 #signup {
-  margin-top: 9%;
-}
-
-#sign-up-caption p {
-  text-align: center;
-  font-size: 2.1vw;
-  margin-top: 4%;
-  font-weight: 400;
-  font-style: italic;
+  margin-top: 12%;
+  margin-bottom: 4%;
 }
 
 
 #dashboard {
   margin-top: 12%;
-  margin-bottom: 12%;
+  margin-bottom: 13%;
 }
 
 #account-info {
-  margin-bottom: 22%;
+  margin-bottom: 23%;
 }
 
 #view-prototype-bottom{
-  margin-bottom: -10%;
 }
 
 
@@ -199,6 +191,7 @@ footer h3 {
   font-size: 3.73vw;
   font-weight: 400;
   margin-bottom: 8%;
+  margin-top: 3%;
 }
 
 footer h4 {
@@ -265,8 +258,9 @@ footer h5 {
   }
 
   #blocbox-logo {
-    margin-bottom: 10.5%;
+    margin-bottom: 9.5%;
   }
+
 
   #case-study-content {
     width: 62.5%;
@@ -277,12 +271,15 @@ footer h5 {
   }
 
   #case-study-content p {
+    width: 100%;
     letter-spacing: 0.1875%;
+    font-size: 1.875vw;
   }
 
   #list-label {
     margin-top: 15%;
     font-size: 2vw;
+    margin-bottom: 9%;
   }
 
   #hero ul {
@@ -290,7 +287,7 @@ footer h5 {
     margin-top: -6%;
     margin-bottom: 19.6%;
     font-size: 2.5vw;
-    line-height: 1.5em;
+    line-height: 1.6em;
   }
 
   #sign-up-caption {
@@ -298,23 +295,39 @@ footer h5 {
   }
 
   .view-prototype {
-    width: 18.750em;
-    height: 2.25em;
-    margin-top: 21.25%;
+    width: 78%;
   }
 
   .view-prototype a {
-    font-size: 1.125em;
-    margin-bottom: -7px;
+    font-size: 2.5125vw;
   }
 
-
+  #view-prototype-top {
+    margin-top: 25%;
+    margin-bottom: 39%;
+  }
 
   #case-study-content h4 {
     width: 100%;
+    margin-bottom: 5%;
+  }
+
+  #user-flows {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #signup {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #dashboard {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 16.375%;
   }
 
@@ -323,7 +336,16 @@ footer h5 {
   }
 
   #account-info {
-    margin-bottom: 25.375%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 29.375%;
+    margin-top: -4%;
+  }
+
+  #view-prototype-bottom {
+    margin-bottom: -5%;
+    margin-top: -4%;
   }
 
   footer li {
@@ -392,6 +414,7 @@ footer h5 {
 #case-study-content h4 {
   letter-spacing: .45em;
   font-size: 1.6vw;
+  margin-bottom: 3.75%;
 }
 
 
@@ -411,22 +434,68 @@ footer h5 {
   padding-top: 0.45em;
 }
 
+#user-flows{
+  width: 100%;
+  margin-top: 6.75%;
+  margin-bottom: 12%;
+}
+
+#style-guid {
+  margin-top: -7.25%;
+  margin-bottom: .25%;
+}
+
+#reits {
+  margin-top: -9%;
+  margin-bottom: -8%;
+}
+
 #view-prototype-top {
   margin-bottom: 25%;
-  margin-top: 16%;
+  margin-top: 10%;
+}
+
+#view-prototype-bottom {
+  margin-bottom: -19%;
 }
 
 #scroll {
   letter-spacing: .75vw;
 }
 
+footer h3 {
+  font-size: 2.5vw;
+  letter-spacing: .25vw;
+}
+
+footer h4 {
+  font-size: 1.6vw;
+  letter-spacing: .16vw;
+  margin-bottom: -3%;
+}
+
+footer h5 {
+  font-size: 1.25vw;
+  letter-spacing: .125vw;
+  margin-top:5.5%;
+}
+
+.footer-contact {
+  width: 16%;
+}
+
+footer a {
+  font-size: 1.6vw;
+}
+
+
 .line-separator1 {
   width: 58.083vw;
   border-bottom: 0.27vw solid #004C47;
   margin-right: auto;
   margin-left: auto;
-  margin-top: -7.94%;
-  margin-bottom: 8.94%;
+  margin-top: -8.94%;
+  margin-bottom: 7.94%;
  }
 
  .line-separator2 {
@@ -434,8 +503,8 @@ footer h5 {
    border-bottom: 0.27vw solid #004C47;
    margin-right: auto;
    margin-left: auto;
-   margin-top: -8.94%;
-   margin-bottom: 15.94%;
+   margin-top: -12.94%;
+   margin-bottom: 10.94%;
   }
 
   .line-separator3 {
@@ -443,7 +512,8 @@ footer h5 {
     border-bottom: 0.27vw solid #004C47;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 9.375em;
+    margin-top:-1%;
+    margin-bottom: 11%;
   }
 
   .line-separator4 {
@@ -451,7 +521,7 @@ footer h5 {
     border-bottom: 0.27vw solid #004C47;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 9.375em;
+    margin-bottom: 12%;
   }
 
   .line-separator5 {
@@ -459,7 +529,8 @@ footer h5 {
     border-bottom: 0.27vw solid #004C47;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 8.5em;
+    margin-top: 12%;
+    margin-bottom: -9%;
   }
 
   .line-separator6 {
@@ -467,5 +538,8 @@ footer h5 {
     border-bottom: 0.27vw solid #004C47;
     margin-right: auto;
     margin-left: auto;
+    margin-top: -12%;
+    margin-bottom: 16%;
   }
+
 }
