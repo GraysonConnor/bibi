@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+body{
+  border: 10px solid #FFFFFF;
+  background-color: #FEE9DE;
+  font-size: 16px;
+  color: #004C47;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+
+object {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+a {
+color: #004C47;
+text-decoration: none;
+outline: 0;
+}
+
+a:visited {
+  color: #004C47;
+  text-decoration: none;
+  font-weight: lighter;
+  outline: 0;
+}
+
+#content {
+  width: 64%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo {
+  width: 40%;
+  height: 4.136%;
+  margin: 8% auto;
+}
+
+#about {
+  text-align: left;
+  color: #005B4B;
+}
+
+#about h4 {
+  font-size: 4.8vw;
+  font-weight: 300;
+}
+
+#about p {
+  font-weight: 300;
+  font-size: 2.6vw;
+}

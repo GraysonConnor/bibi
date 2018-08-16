@@ -37,5 +37,5 @@ $('a[href*="#"]')
 
 
   document.getElementById("home").onclick = function () {
-  location.href = "main.html";
+  location.href = "index.html";
     };
