@@ -54,14 +54,160 @@ a:visited {
 #about {
   text-align: left;
   color: #005B4B;
+  margin-bottom: 5vh;
 }
 
 #about h4 {
   font-size: 4.8vw;
-  font-weight: 300;
+  font-weight: 400;
+  margin-bottom: 5%;
+  margin-top: 12vh;
 }
 
 #about p {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 2.6vw;
+  line-height: 3.73vw;
+  padding-bottom: 1.15vh;
+  letter-spacing: .4vw;
+}
+
+#nav {
+  margin-bottom: 11.5vh;
+}
+
+
+#nav li {
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.125em solid #004C47;
+  list-style-type: none;
+  width: 55.5%;
+  height: 4.5%;
+  padding-top: .34vh;
+  margin-bottom: 3vh;
+  font-size: 3.73vw;
+}
+
+#nav li:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  box-shadow:
+               1px 1px #004C47,
+               2px 2px #004C47,
+               3px 3px #004C47;
+       -webkit-transform: translateX(-3px);
+       transform: translateX(-3px);
+}
+
+#nav a {
+  display: block;
+  padding-bottom: .7vh;
+  font-weight: 400;
+}
+
+#projects {
+  margin-bottom: 11.5vh;
+}
+
+#enveluv {
+  margin-bottom: 4.6vh;
+}
+
+
+#projects h3 {
+  width: 12.75vw;
+  padding-bottom: 4px;
+  text-align: left;
+  font-size: 3.73vw;
+  font-weight: 400;
+  border-bottom: 0.4vh solid #004C47;
+  margin-bottom: 2.3vh;
+}
+
+#projects h2 {
+  text-align: left;
+  margin-top: -2.5vh;
+  font-size: 6.4vw;
+  font-weight: 400;
+  margin-bottom: 2.3vh;
+}
+
+#projects p {
+  text-align: left;
+  font-size: 2.6vw;
+  letter-spacing: .32vw;
+  line-height: 1.25em;
+  margin-bottom: 2.9vh;
+}
+
+#projects a {
+  display: block;
+  text-align: left;
+  font-size: 2.6vw;
+  width: 22.5vw;
+  padding-bottom: .2vh;
+  border-bottom: .09vh solid #004C47;
+}
+
+
+footer {
+  width: 65.06%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7vh;
+}
+
+footer h3 {
+  font-size: 3.73vw;
+  margin-bottom: 3.4vh;
+  font-weight: 400;
+  width: 100%;
+}
+
+footer h4 {
+  font-size: 2.6vw;
+  margin-bottom: 2.3vh;
+  font-weight: 400;
+}
+
+footer ul {
+  margin-bottom: 3.43vh;
+}
+
+footer li {
+  list-style-type: none;
+  border: 0.125em solid #004C47;
+  width: 35%;
+  height: 3vh;
+  padding-top: .4vh;
+  font-size: 2.6vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.3vh;
+}
+
+footer li:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  box-shadow:
+               1px 1px #004C47,
+               2px 2px #004C47,
+               3px 3px #004C47;
+       -webkit-transform: translateX(-3px);
+       transform: translateX(-3px);
+}
+
+#scroll {
+ font-size: 2.6vw;
+ border-bottom: .5px solid #004C47;
+ letter-spacing: .75vw;
+}
+
+footer h5 {
+  font-size: 2.5vw;
+  font-weight: 300;
+   margin-top: 8vh;
 }
