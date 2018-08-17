@@ -54,26 +54,26 @@ a:visited {
 #about {
   text-align: left;
   color: #005B4B;
-  margin-bottom: 5vh;
+  margin-bottom: 13%;
+  margin-top: 20%;
 }
 
 #about h4 {
-  font-size: 4.8vw;
+  font-size: 4.5vw;
   font-weight: 400;
   margin-bottom: 5%;
-  margin-top: 12vh;
 }
 
 #about p {
   font-weight: 400;
   font-size: 2.6vw;
   line-height: 3.73vw;
-  padding-bottom: 1.15vh;
+  margin-bottom: 4%;
   letter-spacing: .4vw;
 }
 
 #nav {
-  margin-bottom: 11.5vh;
+  margin-bottom: 26.6%;
 }
 
 
@@ -84,8 +84,8 @@ a:visited {
   list-style-type: none;
   width: 55.5%;
   height: 4.5%;
-  padding-top: .34vh;
-  margin-bottom: 3vh;
+  padding-top: .45vh;
+  margin-bottom: 5.3%;
   font-size: 3.73vw;
 }
 
@@ -108,30 +108,30 @@ a:visited {
 }
 
 #projects {
-  margin-bottom: 11.5vh;
+  margin-bottom: 26.6%;
 }
 
 #enveluv {
-  margin-bottom: 4.6vh;
+  margin-bottom: 10.6%;
 }
 
 
 #projects h3 {
-  width: 12.75vw;
-  padding-bottom: 4px;
+  width: 22%;
+  padding-bottom: 1.06%;
   text-align: left;
   font-size: 3.73vw;
   font-weight: 400;
-  border-bottom: 0.4vh solid #004C47;
+  border-bottom: 1.5px solid #004C47;
   margin-bottom: 2.3vh;
 }
 
 #projects h2 {
   text-align: left;
-  margin-top: -2.5vh;
+  margin-top: -5.3%;
   font-size: 6.4vw;
   font-weight: 400;
-  margin-bottom: 2.3vh;
+  margin-bottom: 2.3%;
 }
 
 #projects p {
@@ -139,7 +139,7 @@ a:visited {
   font-size: 2.6vw;
   letter-spacing: .32vw;
   line-height: 1.25em;
-  margin-bottom: 2.9vh;
+  margin-bottom: 6.4%;
 }
 
 #projects a {
@@ -153,40 +153,46 @@ a:visited {
 
 
 footer {
-  width: 65.06%;
+  width: 68.06%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 7vh;
+  margin-bottom: 10.6%;
 }
 
 footer h3 {
   font-size: 3.73vw;
-  margin-bottom: 3.4vh;
+  margin-bottom: 8%;
   font-weight: 400;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer h4 {
   font-size: 2.6vw;
-  margin-bottom: 2.3vh;
+  margin-bottom: 6%;
   font-weight: 400;
 }
 
+
 footer ul {
-  margin-bottom: 3.43vh;
+  margin-bottom: 10%;
 }
 
+
 footer li {
-  list-style-type: none;
-  border: 0.125em solid #004C47;
-  width: 35%;
-  height: 3vh;
-  padding-top: .4vh;
-  font-size: 2.6vw;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2.3vh;
+  border: 0.125em solid #004C47;
+  list-style-type: none;
+  width: 31%;
+  height: 4.5%;
+  padding-top: .34vh;
+  padding-bottom: .3vh;
+  margin-bottom: 5.3%;
+  font-size: 2.5vw;
 }
+
 
 footer li:hover {
   -webkit-transform: scale(1.1);
@@ -202,12 +208,182 @@ footer li:hover {
 
 #scroll {
  font-size: 2.6vw;
- border-bottom: .5px solid #004C47;
+ border-bottom: .05vh solid #004C47;
  letter-spacing: .75vw;
 }
 
 footer h5 {
   font-size: 2.5vw;
   font-weight: 300;
-   margin-top: 8vh;
+   margin-top: 10.6%;
+}
+
+
+@media(min-width: 640px) {
+
+  #logo {
+    margin-top: 6.25%;
+    width: 39.0625%;
+    height: 4.04%;
+  }
+
+  #about {
+    margin-bottom: 15%;
+  }
+
+  #about h4 {
+    font-size: 3.75vw;
+  }
+
+  #about p {
+    font-size: 1.875vw;
+    margin-bottom: 6.25%;
+    line-height: 1.6em;
+  }
+
+  #nav li {
+    font-size: 2.8125vw;
+    width: 43%;
+    border: 0.130 solid #004C47;
+  }
+
+  #projects h2 {
+    text-align: center;
+    font-size: 7.5vw;
+  }
+
+
+  #projects p {
+    text-align: center;
+    font-size: 1.875vw;
+  }
+
+  #view-case-study {
+    margin-top: -3%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  #projects a {
+    font-size: 2.1875vw;
+    text-align: center;
+    width: 31%;
+  }
+
+  footer {
+    margin-bottom: 7.8125%;
+  }
+
+  footer li {
+    border: 0.10em solid #004C47;
+  }
+
+  footer h5 {
+    font-size: 1.875vw;
+  }
+
+  #scroll {
+    font-size: 1.875vw;
+  }
+
+}
+
+
+@media(min-width: 1440px) {
+
+  #logo {
+    width: 24.305%;
+    height: 2.5%;
+    margin-top: 4.86%;
+  }
+
+  #about h4 {
+    font-size: 2.36vw;
+  }
+
+  #about p {
+    font-size: 1.25vw;
+    margin-bottom: 3%;
+    line-height: 1.4em;
+    letter-spacing: 0.125vw;
+  }
+
+  #nav ul {
+    text-align: center;
+
+  }
+
+  #nav li {
+    display: inline-block;
+    font-size: 1.6vw;
+    width: 22%;
+    float: none;
+  }
+
+  #nav li:nth-child(2) {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+
+  #projects {
+    margin-top: -13.8%;
+  }
+
+  #enveluv {
+    margin-bottom: 15%;
+  }
+
+  #projects h3 {
+    font-size: 2vw;
+    width: 12%;
+    border-bottom: .25vh solid #004C47;
+    margin-bottom: 8%;
+  }
+
+  #projects h2 {
+    font-size: 4.4vw;
+    letter-spacing: .6vw;
+  }
+
+  #projects p {
+    font-size: 1.25vw;
+
+  }
+
+  #projects a {
+    font-size: 1.6vw;
+    width: 28%;
+    border-bottom: .1vh solid #004C47;
+    letter-spacing: .25vw;
+    margin-top: 2%;
+  }
+
+  footer h3 {
+    font-size: 2.5vw;
+    letter-spacing: 0.25vw;
+  }
+
+  footer h4 {
+    font-size: 1.6vw;
+  }
+
+  footer li {
+    width: 17%;
+    font-size: 1.4vw;
+    margin-bottom: 2.7%;
+  }
+
+  #scroll {
+    font-size: 1.3vw;
+  }
+
+  footer h5 {
+    font-size: 1.25vw;
+    margin-top: 6%;
+    margin-bottom: -3%;
+  }
+
+
+
 }
