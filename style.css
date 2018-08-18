@@ -143,14 +143,19 @@ a:visited {
   margin-bottom: 6.4%;
 }
 
+#view-case-study {
+  width: 37.5%;
+  border-bottom: .09vh solid #004C47;
+}
+
 #projects a {
   display: block;
   text-align: left;
   font-size: 2.6vw;
-  width: 22.5vw;
   padding-bottom: .2vh;
-  border-bottom: .09vh solid #004C47;
 }
+
+
 
 
 footer {
