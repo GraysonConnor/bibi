@@ -144,15 +144,17 @@ a:visited {
 }
 
 #view-case-study {
-  width: 37.5%;
-  border-bottom: .09vh solid #004C47;
+  width: 100%;
+  text-align: left;
 }
 
 #projects a {
   display: block;
   text-align: left;
+  width: 37.75%;
   font-size: 2.6vw;
   padding-bottom: .2vh;
+  border-bottom: .09vh solid #004C47;
 }
 
 
