@@ -124,6 +124,7 @@ a {
   color: #9BECE7;
   margin-left: auto;
   margin-right: auto;
+  outline: none;
 }
 
 .view-prototype a {
@@ -134,6 +135,7 @@ a {
   text-decoration: none;
   font-weight: lighter;
   letter-spacing: .5vw;
+  outline: none;
 }
 
 #view-prototype-top {
