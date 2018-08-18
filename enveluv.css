@@ -449,12 +449,10 @@ footer h5 {
 
 @media(min-width: 1440px) {
 
-  body {
-   border: 20px solid #FFFFFF;
- }
 
  #case-study-content{
-   margin-top: 6.94vw;
+   margin-top: 5.94%;
+    width: 62.569%;
  }
 
   #desktop{
@@ -478,7 +476,7 @@ footer h5 {
    border-bottom: 0.20vw solid #004C47;
    margin-right: auto;
    margin-left: auto;
-   margin-bottom: 10%;
+   margin-bottom: 9%;
    margin-top: -6.9%;
 
  }
@@ -550,11 +548,6 @@ footer h5 {
  }
 
 
-
- #case-study-content {
-   width: 62.569%;
- }
-
  #list-label {
    font-size: 1.2vw;
  }
@@ -586,6 +579,36 @@ footer h5 {
  .view-prototype a {
    font-size: 1.5em;
    padding-top: 0.45em;
+ }
+
+ .box {
+   width: 18vw;
+   height: 18vw;
+   border: 0.5vw solid #004C47;
+ }
+
+ .box p {
+   line-height: 3.5vh;
+   font-size: 1.6vw;
+ }
+
+ .box h4 {
+   font-size: 3.3vw;
+   line-height: 2.5vh;
+ }
+
+ .box h5 {
+   font-size: 2.5vw;
+   line-height: 2.5vh;
+ }
+
+ #box-para p{
+   font-size: 1.25vw;
+   line-height: 1.75em;
+ }
+
+ #and {
+   font-size: 4.6vw;
  }
 
  footer {
@@ -633,6 +656,7 @@ footer h5 {
  #img-full {
    display: block;
  }
+
 }
 
 
@@ -647,13 +671,29 @@ footer h5 {
     width: 100%;
   }
 
-  .box {
-    width: 24vw;
-    height: 24vw;
-  }
 
   .view-prototype {
     width: 50%;
+  }
+
+  .box {
+    width: 18vw;
+    height: 18vw;
+  }
+
+  .box p {
+    line-height: 3.5vh;
+    font-size: 1.6vw;
+  }
+
+  .box h4 {
+    font-size: 3.3vw;
+    line-height: 2.5vh;
+  }
+
+  .box h5 {
+    font-size: 2.5vw;
+    line-height: 2.5vh;
   }
 
 }
@@ -665,14 +705,26 @@ footer h5 {
     margin: 0 auto;
   }
 
-  .box-container {
-    width: 100%;
+  .box {
+    width: 18vw;
+    height: 18vw;
   }
 
-  .box {
-    width: 24vw;
-    height: 24vw;
+  .box p {
+    line-height: 5.5vh;
+    font-size: 1.6vw;
   }
+
+  .box h4 {
+    font-size: 3.3vw;
+    line-height: 2.5vh;
+  }
+
+  .box h5 {
+    font-size: 2.5vw;
+    line-height: 2.5vh;
+  }
+
 
   .view-prototype {
     width: 35%;

@@ -396,7 +396,7 @@ footer h5 {
   @media(min-width: 1440px) {
 
     .line-separator1 {
-    width: 58%;
+    width: 45vw;
     border-bottom: 0.27vh solid #004C47;
     margin-right: auto;
     margin-left: auto;
@@ -405,7 +405,7 @@ footer h5 {
    }
 
    .line-separator2 {
-     width: 58.083vw;
+     width: 45vw;
      border-bottom: 0.27vh solid #004C47;
      margin-right: auto;
      margin-left: auto;
@@ -414,7 +414,7 @@ footer h5 {
     }
 
     .line-separator3 {
-      width: 58.083vw;
+      width: 45vw;
       border-bottom: 0.27vh solid #004C47;
       margin-right: auto;
       margin-left: auto;
@@ -423,7 +423,7 @@ footer h5 {
     }
 
     .line-separator4 {
-      width: 58.083vw;
+      width: 45vw;
       border-bottom: 0.27vh solid #004C47;
       margin-right: auto;
       margin-left: auto;
@@ -431,7 +431,7 @@ footer h5 {
     }
 
     .line-separator5 {
-      width: 58.083vw;
+      width: 45vw;
       border-bottom: 0.27vh solid #004C47;
       margin-right: auto;
       margin-left: auto;
@@ -440,7 +440,7 @@ footer h5 {
     }
 
     .line-separator6 {
-      width: 58.083vw;
+      width: 45vw;
       border-bottom: 0.27vh solid #004C47;
       margin-right: auto;
       margin-left: auto;
