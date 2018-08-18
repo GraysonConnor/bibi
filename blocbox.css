@@ -33,13 +33,15 @@ a {
 
 #home {
   width: 16.73%;
-  height: 3%;
-  border: none;
+  height: 30px;
   background-color: #99CCC9;
+  border: none;
   float: left;
   margin-top: 1%;
   padding-left: 2.6%;
+  outline: none;
 }
+
 
 #logo {
   width: 40%;
@@ -182,31 +184,49 @@ footer {
   margin-top: 26%;
   height: auto;
   margin-bottom: 13.3%;
+  overflow-y: hidden;
 }
 
 footer h3 {
   font-size: 3.73vw;
-  font-weight: 400;
   margin-bottom: 8%;
-  margin-top: 3%;
+  font-weight: 400;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer h4 {
   font-size: 2.6vw;
+  margin-bottom: 6%;
   font-weight: 400;
 }
 
-footer div {
-  margin-left: auto;
-  margin-right: auto;
-  width: 26.6%;
-  padding: .288em 0 .188em 0;
-  border: 0.125em solid #004C47;
-  letter-spacing: .15em;
+
+footer ul {
+  margin-bottom: 10%;
 }
 
 
-footer div:hover {
+footer li {
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.125em solid #004C47;
+  list-style-type: none;
+  width: 31%;
+  height: 4.5%;
+  padding-top: .34vh;
+  padding-bottom: .3vh;
+  margin-bottom: 5.3%;
+  font-size: 2.5vw;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+
+footer li:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
@@ -218,40 +238,35 @@ footer div:hover {
        transform: translateX(-3px);
 }
 
-footer ul {
-  margin-bottom: 8%;
-}
 
-footer li {
-  list-style-type: none;
-  margin-top: 5.3%;
-}
-
-footer a {
-  text-decoration: none;
-  font-size: 2.6vw;
-}
 
 #scroll {
-  border-bottom: .5px solid #004C47;
-  letter-spacing: .75vw;
+ font-size: 2.6vw;
+ border-bottom: .05vh solid #004C47;
+ letter-spacing: .75vw;
 }
 
 footer h5 {
-  margin-top: 10.6%;
-  font-size: 2.6vw;
-  font-weight: 400;
+  font-size: 2.5vw;
+  font-weight: 300;
+   margin-top: 10.6%;
 }
+
+
 
 
 @media(min-width: 640px) {
 
   #logo {
-  margin-top: 4.6875%;
+      width: 39.0625%;
+      height: 2.5%;
+      margin-top: 4.86%;
   }
 
   #home {
-    margin-top: 1%;
+    width: 11.7%;
+    height: 1.875%;
+    margin-top: 2%;
   }
 
   #blocbox-logo {
@@ -345,26 +360,93 @@ footer h5 {
     margin-top: -4%;
   }
 
-  footer li {
-    margin-bottom: -3.125%;
+  footer {
+    margin-bottom: 7.8125%;
   }
 
-  #scroll {
-    font-size: 1.875vw;
-    margin-bottom: -15%;
-    letter-spacing: .75vw;
+  footer ul {
+    margin-bottom: 3.5%;
+    }
+
+    footer li {
+      width: 23.43%;
+      border: 0.10em solid #004C47;
+      margin-bottom: 1.5%;
+    }
+
+    footer h5 {
+      font-size: 1.875vw;
+    }
+  }
+
+  footer li {
+    width: 23.43%;
+    border: 0.10em solid #004C47;
+    margin-bottom: 1.5%;
   }
 
   footer h5 {
     font-size: 1.875vw;
-    margin-top: 8%;
-    margin-bottom: -5%;
   }
 
-}
+  #scroll {
+    font-size: 1.875vw;
+  }
 
+  @media(min-width: 1440px) {
 
-@media(min-width: 1440px) {
+    .line-separator1 {
+    width: 58%;
+    border-bottom: 0.27vh solid #004C47;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -8.94%;
+    margin-bottom: 8%;
+   }
+
+   .line-separator2 {
+     width: 58.083vw;
+     border-bottom: 0.27vh solid #004C47;
+     margin-right: auto;
+     margin-left: auto;
+     margin-top: -12.94%;
+     margin-bottom: 10%;
+    }
+
+    .line-separator3 {
+      width: 58.083vw;
+      border-bottom: 0.27vh solid #004C47;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top:-1%;
+      margin-bottom: 11%;
+    }
+
+    .line-separator4 {
+      width: 58.083vw;
+      border-bottom: 0.27vh solid #004C47;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 12%;
+    }
+
+    .line-separator5 {
+      width: 58.083vw;
+      border-bottom: 0.27vh solid #004C47;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 12%;
+      margin-bottom: -10.5%;
+    }
+
+    .line-separator6 {
+      width: 58.083vw;
+      border-bottom: 0.27vh solid #004C47;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: -12%;
+      margin-bottom: 16%;
+    }
 
   #logo {
     width: 24.305%;
@@ -386,11 +468,16 @@ footer h5 {
   #home {
     width: 10.2%;
     height: 1.5%;
+    margin-top: 1.25%;
   }
 
   #case-study-content {
     width: 65.5%;
     font-size: 1.24vw;
+}
+
+#hero li {
+  font-size: 1.25vw;
 }
 
 #desktop-caption {
@@ -399,8 +486,8 @@ footer h5 {
 }
 
 #hero ul {
-  font-size: 1.6vw;
-  margin-top: -8.5%;
+  line-height: .875em;
+  margin-top: -6.5%;
   margin-bottom: 17%;
 }
 
@@ -462,81 +549,51 @@ footer h5 {
 
 footer h3 {
   font-size: 2.5vw;
-  letter-spacing: .25vw;
+  letter-spacing: 0.25vw;
 }
 
 footer h4 {
   font-size: 1.6vw;
-  letter-spacing: .16vw;
-  margin-bottom: -3%;
+}
+
+footer li {
+  width: 12%;
+  font-size: 1.4vw;
+
+}
+
+#scroll {
+  font-size: 1.3vw;
 }
 
 footer h5 {
   font-size: 1.25vw;
-  letter-spacing: .125vw;
-  margin-top:5.5%;
-}
+  margin-top: 6%;
 
-.footer-contact {
-  width: 16%;
-}
-
-footer a {
-  font-size: 1.6vw;
-}
-
-
-.line-separator1 {
-  width: 58.083vw;
-  border-bottom: 0.27vw solid #004C47;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: -8.94%;
-  margin-bottom: 7.94%;
  }
 
- .line-separator2 {
-   width: 58.083vw;
-   border-bottom: 0.27vw solid #004C47;
-   margin-right: auto;
-   margin-left: auto;
-   margin-top: -12.94%;
-   margin-bottom: 10.94%;
+}
+
+
+@media(min-width: 1680px) {
+  #container {
+    width: 80%;
+    margin: 0 auto;
   }
 
-  .line-separator3 {
-    width: 58.083vw;
-    border-bottom: 0.27vw solid #004C47;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top:-1%;
-    margin-bottom: 11%;
-  }
-
-  .line-separator4 {
-    width: 58.083vw;
-    border-bottom: 0.27vw solid #004C47;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 12%;
-  }
-
-  .line-separator5 {
-    width: 58.083vw;
-    border-bottom: 0.27vw solid #004C47;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 12%;
-    margin-bottom: -9%;
-  }
-
-  .line-separator6 {
-    width: 58.083vw;
-    border-bottom: 0.27vw solid #004C47;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: -12%;
-    margin-bottom: 16%;
+  .view-prototype {
+    width: 72%;
   }
 
 }
+
+
+@media(min-width: 2560px) {
+  #container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .view-prototype {
+    width: 72%;
+  }

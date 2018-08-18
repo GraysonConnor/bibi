@@ -10,14 +10,16 @@ html {
   overflow-x: hidden;
 }
 
-body{
+body {
   border: 10px solid #FFFFFF;
   background-color: #F8DACB;
   font-size: 16px;
+  color: #004C47;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-
+  height: auto;
 }
+
 
 
 object {
@@ -51,6 +53,7 @@ a {
   float: left;
   margin-top: 1%;
   padding-left: 2.6%;
+  outline: none;
 }
 
 #logo {
@@ -237,31 +240,46 @@ footer {
   height: auto;
   margin-bottom: 13.3%;
   color: #005B4B;
+  overflow-y: hidden;
 }
+
 
 footer h3 {
   font-size: 3.73vw;
-  font-weight: 400;
   margin-bottom: 8%;
-  margin-top: 3%;
+  font-weight: 400;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer h4 {
   font-size: 2.6vw;
+  margin-bottom: 6%;
   font-weight: 400;
 }
 
-footer div {
-  margin-left: auto;
-  margin-right: auto;
-  width: 26.6%;
-  padding: .288em 0 .188em 0;
-  border: 0.125em solid #004C47;
-  letter-spacing: .15em;
+
+footer ul {
+  margin-bottom: 10%;
 }
 
 
-footer div:hover {
+footer li {
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.125em solid #004C47;
+  list-style-type: none;
+  width: 31%;
+  height: 4.5%;
+  padding-top: .34vh;
+  padding-bottom: .3vh;
+  margin-bottom: 5.3%;
+  font-size: 2.5vw;
+}
+
+
+footer li:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
@@ -273,30 +291,22 @@ footer div:hover {
        transform: translateX(-3px);
 }
 
-footer ul {
-  margin-bottom: 8%;
-}
-
-footer li {
-  list-style-type: none;
-  margin-top: 5.3%;
-}
-
 footer a {
   text-decoration: none;
-  font-size: 2.6vw;
 }
 
 #scroll {
-  border-bottom: .5px solid #004C47;
-  letter-spacing: .75vw;
+ font-size: 2.6vw;
+ border-bottom: .05vh solid #004C47;
+ letter-spacing: .75vw;
 }
 
 footer h5 {
-  margin-top: 10.6%;
-  font-size: 2.6vw;
-  font-weight: 400;
+  font-size: 2.5vw;
+  font-weight: 300;
+   margin-top: 10.6%;
 }
+
 
 
 
@@ -325,13 +335,96 @@ footer h5 {
 
 
   #logo {
-    width: 39.06%;
-    height: 4.04%;
+      width: 39.0625%;
+      height: 2.5%;
+      margin-top: 4.86%;
   }
 
+  #home {
+    width: 11.7%;
+    height: 1.875%;
+    margin-top: 2%;
+  }
+
+  #enveluv-logo {
+    margin-bottom: 7.8%;
+  }
 
   #case-study-content {
     width: 62.8125%;
+  }
+
+  #list-label {
+    font-size: 2vw;
+    margin-bottom: 9%;
+  }
+
+  #hero ul {
+    width: 100%;
+    margin-top: -6%;
+    margin-bottom: 19.6%;
+    font-size: 2.5vw;
+    line-height: 1.6em;
+  }
+
+
+  #case-study-content h4 {
+    font-size: 3vw;
+  }
+
+
+  #case-study-content p {
+    font-size: 1.875vw;
+    letter-spacing: .075em;
+  }
+
+  #box-para p {
+    font-size: 1.875vw;
+    letter-spacing: .075em;
+  }
+
+  .view-prototype {
+      width: 74%;
+  }
+
+  .view-prototype a {
+    font-size:1.2em;
+  }
+
+  #view-prototype-bottom {
+    margin-bottom: 15.625%;
+  }
+
+  footer {
+    margin-bottom: 7.8125%;
+  }
+
+  footer ul {
+    margin-bottom: 3.5%;
+    }
+
+    footer li {
+      width: 23.43%;
+      border: 0.10em solid #004C47;
+      margin-bottom: 1.5%;
+    }
+
+    footer h5 {
+      font-size: 1.875vw;
+    }
+
+  footer li {
+    width: 23.43%;
+    border: 0.10em solid #004C47;
+    margin-bottom: 1.5%;
+  }
+
+  footer h5 {
+    font-size: 1.875vw;
+  }
+
+  #scroll {
+    font-size: 1.875vw;
   }
 
   /*Mobile*/
@@ -354,96 +447,236 @@ footer h5 {
   }
 }
 
-
 @media(min-width: 1440px) {
 
-  #case-study-content{
-    margin-top: 6.94vw;
+  body {
+   border: 20px solid #FFFFFF;
+ }
+
+ #case-study-content{
+   margin-top: 6.94vw;
+ }
+
+  #desktop{
+   width: 85.47%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 3%;
+   }
+
+ .line-separator1 {
+   width: 45vw;
+   border-bottom: 0.20vw solid #004C47;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: 4%;
+
+ }
+
+ .line-separator2 {
+   width: 45vw;
+   border-bottom: 0.20vw solid #004C47;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: 10%;
+   margin-top: -6.9%;
+
+ }
+
+ .line-separator3 {
+   width: 45vw;
+   border-bottom: 0.20vw solid #004C47;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: 30%;
+   margin-top: -25%;
+   }
+
+ .line-separator4 {
+   width: 45vw;
+   border-bottom: 0.20vw solid #004C47;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: 8%;
+   margin-top: -7%;
+
+ }
+
+ .line-separator5 {
+   width: 45vw;
+   border-bottom: 0.20vw solid #004C47;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: 8%;
+   margin-top: -6.75%;
+
+ }
+
+ .line-separator6 {
+   width: 45vw;
+   border-bottom: 0.20vw solid #004C47;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: 8%;
+   margin-top: -14.75%;
+ }
+
+ .line-separator7 {
+   width: 45vw;
+   border-bottom: 0.20vw solid #004C47;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: 28%;
+   margin-top: -9%;
+ }
+
+
+
+
+ #logo {
+ width: 24.305%;
+ height: 2.5%;
+ }
+
+ #home {
+   width: 10.2%;
+   height: 1.5%;
+   margin-top: 1.15%;
+ }
+
+ #enveluv-logo {
+   width: 14.4%;
+   height: 10.4%;
+ }
+
+
+
+ #case-study-content {
+   width: 62.569%;
+ }
+
+ #list-label {
+   font-size: 1.2vw;
+ }
+
+#hero ul {
+ line-height:.875em;
+   margin-top: -6.5%;
+   margin-bottom: 6.9%;
+ }
+
+ #hero li {
+   font-size: 1.25vw;
+ }
+
+ #case-study-content h4 {
+   font-size: 1.6vw;
+ }
+
+ #case-study-content p {
+   font-size: 1.25vw;
+   line-height: 1.75em;
+ }
+
+ .view-prototype {
+   width: 42.4%;
+   height: 3.125em;
+ }
+
+ .view-prototype a {
+   font-size: 1.5em;
+   padding-top: 0.45em;
+ }
+
+ footer {
+   margin-top: 13.8%;
+ }
+
+
+
+ footer h3 {
+   font-size: 2.5vw;
+   letter-spacing: 0.25vw;
+ }
+
+
+ footer li {
+     width: 12%;
+     font-size: 1.4vw;
+ }
+
+ #scroll {
+   font-size: 1.3vw;
+ }
+
+ footer h5 {
+   font-size: 1.25vw;
+   margin-top: 6%;
+ }
+
+
+ /*Mobile*/
+
+ #img-mobile {
+  display: none;
+ }
+
+
+ /*Medium*/
+
+ #img-medium {
+  display: none;
+ }
+
+ /*Full*/
+
+ #img-full {
+   display: block;
+ }
+}
+
+
+
+@media(min-width: 1680px) {
+  #container {
+    width: 80%;
+    margin: 0 auto;
   }
 
-  .line-separator1 {
-    width: 58.083vw;
-    border-bottom: 0.27vw solid #004C47;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 6.94%;
+  .box-container {
+    width: 100%;
   }
 
-  .line-separator2 {
-    width: 58.083vw;
-    border-bottom: 0.27vw solid #004C47;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 6.94%;
+  .box {
+    width: 24vw;
+    height: 24vw;
   }
 
-  .line-separator3 {
-    width: 58.083vw;
-    border-bottom: 0.27vw solid #004C47;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 6.94%;
+  .view-prototype {
+    width: 50%;
   }
 
-  .line-separator4 {
-    width: 58.083vw;
-    border-bottom: 0.27vw solid #004C47;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 6.94%;
+}
+
+
+@media(min-width: 2560px) {
+  #container {
+    width: 80%;
+    margin: 0 auto;
   }
 
-  .line-separator5 {
-    width: 58.083vw;
-    border-bottom: 0.27vw solid #004C47;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 6.94%;
+  .box-container {
+    width: 100%;
   }
 
-  .line-separator6 {
-    width: 58.083vw;
-    border-bottom: 0.27vw solid #004C47;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 6.94%;
+  .box {
+    width: 24vw;
+    height: 24vw;
   }
 
-  .line-separator7 {
-    width: 58.083vw;
-    border-bottom: 0.27vw solid #004C47;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 6.94%;
-  }
-
-  #logo {
-    width: 24.305%;
-    height: 2.513%;
+  .view-prototype {
+    width: 35%;
   }
 
 
-
-  #case-study-content {
-    width: 62.569%;
-  }
-
-  /*Mobile*/
-
-  #img-mobile {
-   display: none;
-  }
-
-
-  /*Medium*/
-
-  #img-medium {
-   display: none;
-  }
-
-  /*Full*/
-
-  #img-full {
-    display: block;
-  }
 }
