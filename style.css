@@ -12,7 +12,7 @@ html {
 
 body{
   border: 10px solid #FFFFFF;
-  background-color: green;
+  background-color: #FEE9DE;
   font-size: 16px;
   color: #004C47;
   font-family: 'Lato', sans-serif;
@@ -151,10 +151,10 @@ a:visited {
 #projects a {
   display: block;
   text-align: left;
-  width: 37.75%;
+  width: 100%;
   font-size: 2.6vw;
   padding-bottom: .2vh;
-  border-bottom: .09vh solid #004C47;
+  text-decoration: underline;
 }
 
 
@@ -277,7 +277,9 @@ footer h5 {
   #projects a {
     font-size: 2.1875vw;
     text-align: center;
-    width: 31%;
+    width: 32%;
+    text-decoration: none;
+    border-bottom: .09vh solid #004C47;
   }
 
   footer {
