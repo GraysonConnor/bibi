@@ -107,6 +107,23 @@ a {
   margin-bottom: 6%;
 }
 
+#dashboard-caption {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#img11-container {
+  border: 1px solid black;
+  text-align: center;
+  margin-top: -17%;
+}
+
+#revision-para {
+
+}
+
+
 .view-prototype {
   text-align: center;
   margin: 8% auto 16% auto;
@@ -340,10 +357,12 @@ footer h5 {
       margin-top: 4.86%;
   }
 
+
+
   #home {
     width: 11.7%;
     height: 1.875%;
-    margin-top: 2%;
+    margin-top: 1.5%;
   }
 
   #enveluv-logo {
@@ -393,6 +412,10 @@ footer h5 {
 
   #view-prototype-bottom {
     margin-bottom: 15.625%;
+  }
+
+  #solution-title {
+    margin-top: -10%;
   }
 
   footer {
@@ -525,7 +548,7 @@ footer h5 {
    margin-right: auto;
    margin-left: auto;
    margin-bottom: 28%;
-   margin-top: -9%;
+   margin-top: -1%;
  }
 
 
@@ -536,9 +559,9 @@ footer h5 {
  }
 
  #home {
-   width: 10.2%;
+   width: 9.2%;
    height: 1.5%;
-   margin-top: 1.15%;
+   margin-top: 1%;
  }
 
  #enveluv-logo {
@@ -564,6 +587,7 @@ footer h5 {
  #case-study-content h4 {
    font-size: 1.6vw;
  }
+
 
  #case-study-content p {
    font-size: 1.25vw;
@@ -609,6 +633,11 @@ footer h5 {
  #and {
    font-size: 4.6vw;
  }
+
+ #solution-title {
+   margin-top: 8%;
+ }
+
 
  footer {
    margin-top: 13.8%;
