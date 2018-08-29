@@ -36,6 +36,10 @@ $('a[href*="#"]')
 });
 
 
- document.getElementById("home").onclick = function () {
+ document.getElementById("enveluv-home").onclick = function () {
    location.href = "index.html";
     };
+
+    document.getElementById("blocbox-home").onclick = function () {
+      location.href = "index.html";
+       };
